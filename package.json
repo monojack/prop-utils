@@ -1,12 +1,15 @@
 {
-  "name": "prop-utils",
-  "version": "1.0.0",
+  "name": "@mono/prop-utils",
+  "version": "1.0.2",
   "description": "utility-belt for working with object properties",
-  "access": "public",
   "main": "build/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "babel src --out-dir build",
-    "test": "mocha test --compilers js:babel-core/register"
+    "test": "mocha test --compilers js:babel-core/register",
+    "prepublish": "yarn build"
   },
   "repository": {
     "type": "git",
