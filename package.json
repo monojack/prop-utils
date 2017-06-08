@@ -1,0 +1,39 @@
+{
+  "name": "prop-utils",
+  "version": "1.0.0",
+  "description": "utility-belt for working with object properties",
+  "access": "public",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "babel src --out-dir build",
+    "test": "mocha test --compilers js:babel-core/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monojack/prop-utils.git"
+  },
+  "keywords": [
+    "javascript",
+    "object",
+    "prop",
+    "utility"
+  ],
+  "author": "Ionut Achim <monodnb@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monojack/prop-utils/issues"
+  },
+  "homepage": "https://github.com/monojack/prop-utils#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "chai": "^4.0.2",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^5.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "mocha": "^3.4.2"
+  }
+}
